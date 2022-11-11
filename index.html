@@ -43,7 +43,37 @@
         <li>git status: checs what branch we are currently on</li>
         <li>git checkout -b branch-name: creates new branch and switches to that branch</li>
         
-      
+        <ol type="1">
+           Creating Feature Branch and pushing to GitHub
+        <br>
+        <li>Navigate to directory in question -cd "directory name"-
+        </li>
+        <li>Open directory in VS code -code .- </li>
+        <li>Select, open file within VS Code</li>
+        <li>Modify File, etc. </li>
+        <li>Navigate to or confirm you are on the feature branch</li>
+        <li>Commit all files to workign branch - git add -A</li> 
+        
+        <p>ALL CHANGES HAVE BEEN STAGED</p>
+        
+        <li>Commit changes to repository -git commit -m "message to be added with changes"-</li>
+        
+        <p>AT THIS POINT ALL CHANGES HAVE BEEN COMMITTED TO OUR GIT REPO</p>
+        
+        <li>Confirm current branch is up to date with Git repo, sync remote branch in GitHub</li>
+        <li>Pull up base branch in command terminal -git pull origin main-</li>
+        
+        <p>RECOGNIZED AS A GOOD HABBIT TO PULL BASE BRANCH INTO FEATURE BRANCH BEFORE PUSHING UP CODE</p>  
+        <li>Push up all changes -git push origin "name of branch"</li>
+        <li>Navigate to repo, branch to be merged to main, pull requests</li>
+        <li>Create new Pull request</li>
+        <li>Compare feature branch to main branch</li>
+        <li>Add title and description to PR</li>
+        <li>Create & merge pull request</li>
+        <li>Navigate back to main branch in GitHub</li> 
+        <li>Update local repo with new merged-in geature - git checkout main- - git pull origin main-</li>
+        <li>Close issue on GitHub</li>
+      </ol>
       </section>
 
       <section class="card" id="javascript-section">
