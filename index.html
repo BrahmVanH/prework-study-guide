@@ -4,28 +4,29 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css"
     <title>Prework Study Guide</title>
   </head>
   <body>
     <header id="top">
       <h1>Prework Study Guide</h1>
-      <img src="C:\Users\Brahm\Pictures\Odin Lookin Goofy.jpg" alt="Profile image of Odin looking goofy." style="width:500px;height:600px;" />
+      <img src="C:\Users\Brahm\Pictures\Odin Lookin Goofy.jpg" alt="Profile image of Odin looking goofy."/>
     </header>
     <main>
       <section class="card" id="html-section">
         <h2>HTML</h2>
         <ul>
-            <li>HTML Notes</li>
-            <li> Head elements contain information about the structure of the page that are not visible on webpage</li>
-            <li> Title defines the title of webpage - very important for SEO (search engine optimization)</li>
-            <li> style define the CSS styles associated with webpage</li>
-            <li> "base" define base URL</li>
+            
+            <li>Head elements contain information about the structure of the page that are not visible on webpage</li>
+            <li>Title defines the title of webpage - very important for SEO (search engine optimization)</li>
+            <li>style define the CSS styles associated with webpage</li>
+            <li>"base" define base URL</li>
             <li>"link" adds external resource to HTML doc
             </li> 
-            <li> meta defines metadata such as the character set, description, keywords, author</li>
+            <li>meta defines metadata such as the character set, description, keywords, author</li>
             <li>script embeds client-side scripts in HTML doc</li>
             <li>p denotes paragraph of text</li>
-            <li> h1, h2, etc. header texts with decreasingly sized text</li>
+            <li>h1, h2, etc. header texts with decreasingly sized text</li>
             <li>br break between elements</li> 
 
         </ul>
@@ -33,16 +34,48 @@
 
       <section class="card" id="css-section">
         <h2>CSS</h2> 
-        <ul>CSS notes</ul> 
+        <ul>CSS notes
+          <li>Three ways to apply CSS style to webpage</li>
+          <ol type="1">
+            <li>Inline CSS</li>
+            <li>Internal CSS</li>
+            <li>External CSS</li>
+          </ol>
+         Inline CSS
+          <li>Used to style an element directly in the HTML file</li>
+          <li>Applies to specific HTML tag and only that tag</li>
+          <li>Quick, permanent changes</li>
+          <li>Less flexible than internal and external</li>
+          <li>i.e. using -style- to change the color of a single h1 tag</li>
+
+          Internal CSS
+          <li>Embed an entire stylesheet directly in the HTML file</li>
+          <li>Using -style- in -head- element</li>
+          <li>Simple change in CSS rule will apply to all tagged page elements</li>
+
+          External CSS
+          <li>The most common way to style a webpage</li>
+          <li>Other styles are acceptable only under particluar condition</li>
+          <li>Can store CSS rules in a separate file</li>
+          <li>Link CSS file using -link- element in HTML -head-</li>
+          <li>Declarations- contain CSS property we want to apply and the value of the property</li>
+          <li>Margin- space around outside of element</li>
+          <li>Asterisk (*) symbol applies a rule to all elements visible on a page</li>
+          <li>Combined two selectors into a single CSS rules with a comma</li>
+          <li>A period before "card" or other class type designates it as a class selector, any HTML assigned to this class will gain the properties</li>
+          <li>Box- shadow is described by X and Y offsets, blur and spread radius, and color</li>
+        </ul> 
 
       </section>
 
       <section class="card" id="git-section">
         <h2>GIT</h2>
-        <ul> Git notes</ul>
-        <li>git status: checs what branch we are currently on</li>
+        <br>
+        <ul>
+        <li>git status: checks what branch we are currently on</li>
         <li>git checkout -b branch-name: creates new branch and switches to that branch</li>
-        
+        </ul>
+        <br>
         <ol type="1">
            Creating Feature Branch and pushing to GitHub
         <br>
@@ -54,16 +87,16 @@
         <li>Navigate to or confirm you are on the feature branch</li>
         <li>Commit all files to workign branch - git add -A</li> 
         
-        <p>ALL CHANGES HAVE BEEN STAGED</p>
+        <p>All changes have been staged</p>
         
         <li>Commit changes to repository -git commit -m "message to be added with changes"-</li>
         
-        <p>AT THIS POINT ALL CHANGES HAVE BEEN COMMITTED TO OUR GIT REPO</p>
+        <p>At this point all of our changes have been commited to Git repo</p>
         
         <li>Confirm current branch is up to date with Git repo, sync remote branch in GitHub</li>
         <li>Pull up base branch in command terminal -git pull origin main-</li>
         
-        <p>RECOGNIZED AS A GOOD HABBIT TO PULL BASE BRANCH INTO FEATURE BRANCH BEFORE PUSHING UP CODE</p>  
+        <p>Always pull main branch into feature branch</p>  
         <li>Push up all changes -git push origin "name of branch"</li>
         <li>Navigate to repo, branch to be merged to main, pull requests</li>
         <li>Create new Pull request</li>
