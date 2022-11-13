@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+
+body {background-color: rgb(155, 152, 152);}
+
 header,
 footer {
     width: 100%;
@@ -40,4 +43,5 @@ p {
     margin: 40px auto;
     border: 5px solid gray;
     box-shadow: 5px 10px #454447;
+    background-color: rgb(241, 239, 239);
   }
