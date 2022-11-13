@@ -5,11 +5,7 @@
 header,
 footer {
     width: 100%;
- feature/add-js
-    height: 140px;
-
-    height: 140px;
- main
+    height: 120px;
     background-color: rgb(64, 64, 245);
     color: white;
 }
@@ -42,8 +38,4 @@ p {
     margin: 40px auto;
     border: 5px solid gray;
     box-shadow: 5px 10px #454447;
- feature/add-js
   }
-
-  }
- main
